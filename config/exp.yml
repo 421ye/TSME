@@ -1,0 +1,39 @@
+hub:
+  root: ./hubdata
+  dataset:
+    name: moltx/tsme
+    repo: ds
+    prop_type: null
+  model:
+    name: moltx
+    repo: model
+device: cuda
+model:
+  token_size: 272
+  max_len: 512
+  d_model: 768
+  nhead: 12
+  num_encoder_layers: 12
+  num_decoder_layers: 12
+log:
+  level: INFO
+train:
+  seed: 0
+  seq_len: 200
+  epoch: 100
+  batch_size: 16
+  lr: 0.0001
+  spe: false
+  load_pretrained: true
+  freeze_pretrained: false
+  load_model: false
+  pretrained_model_file: ./atom_best.ckpt
+  mutation: true
+  load_model_kind: Best
+  best_loss: 100000000
+  result_file: results_outplus_tsme_model_b_lr_1e-04
+  model_name: TSMEOutPlusModel
+  dataset_name: TSME
+  save_model_path: ./outplus-atom-ft-lmy-model-b-lr-1e-04
+validation:
+  batch_size: 160

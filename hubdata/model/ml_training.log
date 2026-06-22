@@ -1,0 +1,263 @@
+[LOG] 2026-06-08 01:37:18,523 - 
+************************************************************
+          PHASE 1: 5-Fold ML Training 
+************************************************************
+[LOG] 2026-06-08 01:37:18,524 - 
+==================================================
+          Starting Fold 1/5
+==================================================
+[LOG] 2026-06-08 01:37:18,524 - --- 提取特征中 (Fold 1) ---
+[LOG] 2026-06-08 01:37:20,152 - Scaler saved to ./hubdata/model/ml_scaler_fold1.pkl
+[LOG] 2026-06-08 01:37:20,153 - 开始训练 RandomForest (Fold 1) ...
+[LOG] 2026-06-08 01:37:25,295 - [RandomForest] Model weights saved to ./hubdata/model/RandomForest_fold1.pkl
+[LOG] 2026-06-08 01:37:25,334 - [RandomForest] Val MSE: 0.2721 | Pearson(Val): 0.6288 | Sp(Rank): 0.7671
+[LOG] 2026-06-08 01:37:30,315 - 开始训练 SVM (Fold 1) ...
+[LOG] 2026-06-08 01:37:31,619 - [SVM] Model weights saved to ./hubdata/model/SVM_fold1.pkl
+[LOG] 2026-06-08 01:37:31,630 - [SVM] Val MSE: 0.3204 | Pearson(Val): 0.6282 | Sp(Rank): 0.7575
+[LOG] 2026-06-08 01:37:35,579 - 开始训练 XGBoost (Fold 1) ...
+[LOG] 2026-06-08 01:37:41,560 - [XGBoost] Model weights saved to ./hubdata/model/XGBoost_fold1.pkl
+[LOG] 2026-06-08 01:37:41,569 - [XGBoost] Val MSE: 0.2903 | Pearson(Val): 0.6220 | Sp(Rank): 0.6749
+[LOG] 2026-06-08 01:37:44,978 - 
+==================================================
+          Starting Fold 2/5
+==================================================
+[LOG] 2026-06-08 01:37:44,979 - --- 提取特征中 (Fold 2) ---
+[LOG] 2026-06-08 01:37:46,037 - Scaler saved to ./hubdata/model/ml_scaler_fold2.pkl
+[LOG] 2026-06-08 01:37:46,037 - 开始训练 RandomForest (Fold 2) ...
+[LOG] 2026-06-08 01:37:50,701 - [RandomForest] Model weights saved to ./hubdata/model/RandomForest_fold2.pkl
+[LOG] 2026-06-08 01:37:50,715 - [RandomForest] Val MSE: 1.1489 | Pearson(Val): 0.2952 | Sp(Rank): 0.6936
+[LOG] 2026-06-08 01:37:55,011 - 开始训练 SVM (Fold 2) ...
+[LOG] 2026-06-08 01:37:55,951 - [SVM] Model weights saved to ./hubdata/model/SVM_fold2.pkl
+[LOG] 2026-06-08 01:37:55,959 - [SVM] Val MSE: 0.1307 | Pearson(Val): 0.5415 | Sp(Rank): 0.6323
+[LOG] 2026-06-08 01:37:59,438 - 开始训练 XGBoost (Fold 2) ...
+[LOG] 2026-06-08 01:38:03,450 - [XGBoost] Model weights saved to ./hubdata/model/XGBoost_fold2.pkl
+[LOG] 2026-06-08 01:38:03,458 - [XGBoost] Val MSE: 2.0355 | Pearson(Val): 0.2074 | Sp(Rank): 0.4987
+[LOG] 2026-06-08 01:38:06,943 - 
+==================================================
+          Starting Fold 3/5
+==================================================
+[LOG] 2026-06-08 01:38:06,943 - --- 提取特征中 (Fold 3) ---
+[LOG] 2026-06-08 01:38:08,006 - Scaler saved to ./hubdata/model/ml_scaler_fold3.pkl
+[LOG] 2026-06-08 01:38:08,007 - 开始训练 RandomForest (Fold 3) ...
+[LOG] 2026-06-08 01:38:12,745 - [RandomForest] Model weights saved to ./hubdata/model/RandomForest_fold3.pkl
+[LOG] 2026-06-08 01:38:12,757 - [RandomForest] Val MSE: 0.1238 | Pearson(Val): 0.5664 | Sp(Rank): 0.6301
+[LOG] 2026-06-08 01:38:16,786 - 开始训练 SVM (Fold 3) ...
+[LOG] 2026-06-08 01:38:17,841 - [SVM] Model weights saved to ./hubdata/model/SVM_fold3.pkl
+[LOG] 2026-06-08 01:38:17,849 - [SVM] Val MSE: 0.1349 | Pearson(Val): 0.4234 | Sp(Rank): 0.5077
+[LOG] 2026-06-08 01:38:21,325 - 开始训练 XGBoost (Fold 3) ...
+[LOG] 2026-06-08 01:38:25,272 - [XGBoost] Model weights saved to ./hubdata/model/XGBoost_fold3.pkl
+[LOG] 2026-06-08 01:38:25,280 - [XGBoost] Val MSE: 0.1104 | Pearson(Val): 0.6109 | Sp(Rank): 0.6722
+[LOG] 2026-06-08 01:38:28,719 - 
+==================================================
+          Starting Fold 4/5
+==================================================
+[LOG] 2026-06-08 01:38:28,719 - --- 提取特征中 (Fold 4) ---
+[LOG] 2026-06-08 01:38:29,794 - Scaler saved to ./hubdata/model/ml_scaler_fold4.pkl
+[LOG] 2026-06-08 01:38:29,794 - 开始训练 RandomForest (Fold 4) ...
+[LOG] 2026-06-08 01:38:34,209 - [RandomForest] Model weights saved to ./hubdata/model/RandomForest_fold4.pkl
+[LOG] 2026-06-08 01:38:34,216 - [RandomForest] Val MSE: 2.2019 | Pearson(Val): 0.3050 | Sp(Rank): 0.5785
+[LOG] 2026-06-08 01:38:38,609 - 开始训练 SVM (Fold 4) ...
+[LOG] 2026-06-08 01:38:39,797 - [SVM] Model weights saved to ./hubdata/model/SVM_fold4.pkl
+[LOG] 2026-06-08 01:38:39,807 - [SVM] Val MSE: 2.4017 | Pearson(Val): 0.3356 | Sp(Rank): 0.4875
+[LOG] 2026-06-08 01:38:43,291 - 开始训练 XGBoost (Fold 4) ...
+[LOG] 2026-06-08 01:38:47,306 - [XGBoost] Model weights saved to ./hubdata/model/XGBoost_fold4.pkl
+[LOG] 2026-06-08 01:38:47,314 - [XGBoost] Val MSE: 2.5768 | Pearson(Val): 0.1383 | Sp(Rank): 0.5145
+[LOG] 2026-06-08 01:38:50,766 - 
+==================================================
+          Starting Fold 5/5
+==================================================
+[LOG] 2026-06-08 01:38:50,766 - --- 提取特征中 (Fold 5) ---
+[LOG] 2026-06-08 01:38:51,818 - Scaler saved to ./hubdata/model/ml_scaler_fold5.pkl
+[LOG] 2026-06-08 01:38:51,818 - 开始训练 RandomForest (Fold 5) ...
+[LOG] 2026-06-08 01:38:56,411 - [RandomForest] Model weights saved to ./hubdata/model/RandomForest_fold5.pkl
+[LOG] 2026-06-08 01:38:56,419 - [RandomForest] Val MSE: 2.3892 | Pearson(Val): 0.3266 | Sp(Rank): 0.5546
+[LOG] 2026-06-08 01:38:59,266 - 开始训练 SVM (Fold 5) ...
+[LOG] 2026-06-08 01:39:00,785 - [SVM] Model weights saved to ./hubdata/model/SVM_fold5.pkl
+[LOG] 2026-06-08 01:39:00,797 - [SVM] Val MSE: 2.3966 | Pearson(Val): 0.3169 | Sp(Rank): 0.5295
+[LOG] 2026-06-08 01:39:03,647 - 开始训练 XGBoost (Fold 5) ...
+[LOG] 2026-06-08 01:39:07,642 - [XGBoost] Model weights saved to ./hubdata/model/XGBoost_fold5.pkl
+[LOG] 2026-06-08 01:39:07,650 - [XGBoost] Val MSE: 2.3968 | Pearson(Val): 0.3032 | Sp(Rank): 0.5294
+[LOG] 2026-06-08 01:39:10,485 - 所有折数的训练已完成。
+[LOG] 2026-06-08 01:39:10,485 - 
+************************************************************
+          PHASE 2: Ensemble Testing 
+************************************************************
+[LOG] 2026-06-08 01:39:10,731 - --- 评估测试集: RandomForest 集成 ---
+[LOG] 2026-06-08 01:39:14,948 - [Ensemble RandomForest] Test MSE: 0.1745 | Pearson: 0.4958
+[LOG] 2026-06-08 01:44:07,115 - 
+************************************************************
+          PHASE 1: 5-Fold ML Training 
+************************************************************
+[LOG] 2026-06-08 01:44:07,116 - 
+==================================================
+          Starting Fold 1/5
+==================================================
+[LOG] 2026-06-08 01:44:07,116 - --- 提取特征中 (Fold 1) ---
+[LOG] 2026-06-08 01:44:08,683 - Scaler saved to ./hubdata/model/ml_scaler_fold1.pkl
+[LOG] 2026-06-08 01:44:08,683 - 开始训练 RandomForest (Fold 1) ...
+[LOG] 2026-06-08 01:44:13,841 - [RandomForest] Model weights saved to ./hubdata/model/RandomForest_fold1.pkl
+[LOG] 2026-06-08 01:44:13,856 - [RandomForest] Val MSE: 0.2721 | Pearson(Val): 0.6288 | Sp(Rank): 0.7671
+[LOG] 2026-06-08 01:44:17,927 - 开始训练 SVM (Fold 1) ...
+[LOG] 2026-06-08 01:44:18,899 - [SVM] Model weights saved to ./hubdata/model/SVM_fold1.pkl
+[LOG] 2026-06-08 01:44:18,907 - [SVM] Val MSE: 0.3204 | Pearson(Val): 0.6282 | Sp(Rank): 0.7575
+[LOG] 2026-06-08 01:44:23,031 - 开始训练 XGBoost (Fold 1) ...
+[LOG] 2026-06-08 01:44:29,257 - [XGBoost] Model weights saved to ./hubdata/model/XGBoost_fold1.pkl
+[LOG] 2026-06-08 01:44:29,265 - [XGBoost] Val MSE: 0.2903 | Pearson(Val): 0.6220 | Sp(Rank): 0.6749
+[LOG] 2026-06-08 01:44:32,721 - 
+==================================================
+          Starting Fold 2/5
+==================================================
+[LOG] 2026-06-08 01:44:32,721 - --- 提取特征中 (Fold 2) ---
+[LOG] 2026-06-08 01:44:33,790 - Scaler saved to ./hubdata/model/ml_scaler_fold2.pkl
+[LOG] 2026-06-08 01:44:33,791 - 开始训练 RandomForest (Fold 2) ...
+[LOG] 2026-06-08 01:44:38,541 - [RandomForest] Model weights saved to ./hubdata/model/RandomForest_fold2.pkl
+[LOG] 2026-06-08 01:44:38,551 - [RandomForest] Val MSE: 1.1489 | Pearson(Val): 0.2952 | Sp(Rank): 0.6936
+[LOG] 2026-06-08 01:44:42,640 - 开始训练 SVM (Fold 2) ...
+[LOG] 2026-06-08 01:44:43,735 - [SVM] Model weights saved to ./hubdata/model/SVM_fold2.pkl
+[LOG] 2026-06-08 01:44:43,743 - [SVM] Val MSE: 0.1307 | Pearson(Val): 0.5415 | Sp(Rank): 0.6323
+[LOG] 2026-06-08 01:44:47,746 - 开始训练 XGBoost (Fold 2) ...
+[LOG] 2026-06-08 01:44:51,758 - [XGBoost] Model weights saved to ./hubdata/model/XGBoost_fold2.pkl
+[LOG] 2026-06-08 01:44:51,766 - [XGBoost] Val MSE: 2.0355 | Pearson(Val): 0.2074 | Sp(Rank): 0.4987
+[LOG] 2026-06-08 01:44:55,269 - 
+==================================================
+          Starting Fold 3/5
+==================================================
+[LOG] 2026-06-08 01:44:55,269 - --- 提取特征中 (Fold 3) ---
+[LOG] 2026-06-08 01:44:56,336 - Scaler saved to ./hubdata/model/ml_scaler_fold3.pkl
+[LOG] 2026-06-08 01:44:56,337 - 开始训练 RandomForest (Fold 3) ...
+[LOG] 2026-06-08 01:45:01,023 - [RandomForest] Model weights saved to ./hubdata/model/RandomForest_fold3.pkl
+[LOG] 2026-06-08 01:45:01,035 - [RandomForest] Val MSE: 0.1238 | Pearson(Val): 0.5664 | Sp(Rank): 0.6301
+[LOG] 2026-06-08 01:45:05,275 - 开始训练 SVM (Fold 3) ...
+[LOG] 2026-06-08 01:45:06,445 - [SVM] Model weights saved to ./hubdata/model/SVM_fold3.pkl
+[LOG] 2026-06-08 01:45:06,453 - [SVM] Val MSE: 0.1349 | Pearson(Val): 0.4234 | Sp(Rank): 0.5077
+[LOG] 2026-06-08 01:45:09,950 - 开始训练 XGBoost (Fold 3) ...
+[LOG] 2026-06-08 01:45:13,871 - [XGBoost] Model weights saved to ./hubdata/model/XGBoost_fold3.pkl
+[LOG] 2026-06-08 01:45:13,879 - [XGBoost] Val MSE: 0.1104 | Pearson(Val): 0.6109 | Sp(Rank): 0.6722
+[LOG] 2026-06-08 01:45:17,409 - 
+==================================================
+          Starting Fold 4/5
+==================================================
+[LOG] 2026-06-08 01:45:17,409 - --- 提取特征中 (Fold 4) ---
+[LOG] 2026-06-08 01:45:18,504 - Scaler saved to ./hubdata/model/ml_scaler_fold4.pkl
+[LOG] 2026-06-08 01:45:18,504 - 开始训练 RandomForest (Fold 4) ...
+[LOG] 2026-06-08 01:45:23,148 - [RandomForest] Model weights saved to ./hubdata/model/RandomForest_fold4.pkl
+[LOG] 2026-06-08 01:45:23,160 - [RandomForest] Val MSE: 2.2019 | Pearson(Val): 0.3050 | Sp(Rank): 0.5785
+[LOG] 2026-06-08 01:45:27,224 - 开始训练 SVM (Fold 4) ...
+[LOG] 2026-06-08 01:45:28,278 - [SVM] Model weights saved to ./hubdata/model/SVM_fold4.pkl
+[LOG] 2026-06-08 01:45:28,287 - [SVM] Val MSE: 2.4017 | Pearson(Val): 0.3356 | Sp(Rank): 0.4875
+[LOG] 2026-06-08 01:45:31,952 - 开始训练 XGBoost (Fold 4) ...
+[LOG] 2026-06-08 01:45:35,908 - [XGBoost] Model weights saved to ./hubdata/model/XGBoost_fold4.pkl
+[LOG] 2026-06-08 01:45:35,916 - [XGBoost] Val MSE: 2.5768 | Pearson(Val): 0.1383 | Sp(Rank): 0.5145
+[LOG] 2026-06-08 01:45:39,359 - 
+==================================================
+          Starting Fold 5/5
+==================================================
+[LOG] 2026-06-08 01:45:39,360 - --- 提取特征中 (Fold 5) ---
+[LOG] 2026-06-08 01:45:40,446 - Scaler saved to ./hubdata/model/ml_scaler_fold5.pkl
+[LOG] 2026-06-08 01:45:40,446 - 开始训练 RandomForest (Fold 5) ...
+[LOG] 2026-06-08 01:45:45,335 - [RandomForest] Model weights saved to ./hubdata/model/RandomForest_fold5.pkl
+[LOG] 2026-06-08 01:45:45,347 - [RandomForest] Val MSE: 2.3892 | Pearson(Val): 0.3266 | Sp(Rank): 0.5546
+[LOG] 2026-06-08 01:45:48,640 - 开始训练 SVM (Fold 5) ...
+[LOG] 2026-06-08 01:45:49,535 - [SVM] Model weights saved to ./hubdata/model/SVM_fold5.pkl
+[LOG] 2026-06-08 01:45:49,543 - [SVM] Val MSE: 2.3966 | Pearson(Val): 0.3169 | Sp(Rank): 0.5295
+[LOG] 2026-06-08 01:45:52,408 - 开始训练 XGBoost (Fold 5) ...
+[LOG] 2026-06-08 01:45:56,605 - [XGBoost] Model weights saved to ./hubdata/model/XGBoost_fold5.pkl
+[LOG] 2026-06-08 01:45:56,613 - [XGBoost] Val MSE: 2.3968 | Pearson(Val): 0.3032 | Sp(Rank): 0.5294
+[LOG] 2026-06-08 01:45:59,510 - 所有折数的训练已完成。
+[LOG] 2026-06-08 01:45:59,511 - 
+************************************************************
+          PHASE 2: Ensemble Testing 
+************************************************************
+[LOG] 2026-06-08 01:45:59,760 - --- 评估测试集: RandomForest 集成 ---
+[LOG] 2026-06-08 01:46:03,354 - [Ensemble RandomForest] Test MSE: 0.1745 | Pearson: 0.4958
+[LOG] 2026-06-08 02:05:20,399 - 
+************************************************************
+          PHASE 1: 5-Fold ML Training 
+************************************************************
+[LOG] 2026-06-08 02:05:20,400 - 
+==================================================
+          Starting Fold 1/5
+==================================================
+[LOG] 2026-06-08 02:05:20,400 - --- 提取特征中 (Fold 1) ---
+[LOG] 2026-06-08 02:05:21,691 - Scaler saved to ./hubdata/model/ml_scaler_fold1.pkl
+[LOG] 2026-06-08 02:05:21,691 - 开始训练 RandomForest (Fold 1) ...
+[LOG] 2026-06-08 02:05:26,442 - [RandomForest] Model weights saved to ./hubdata/model/RandomForest_fold1.pkl
+[LOG] 2026-06-08 02:05:26,456 - [RandomForest] Val MSE: 0.2721 | Pearson(Val): 0.6288 | Sp(Rank): 0.7671
+[LOG] 2026-06-08 02:05:30,937 - 开始训练 SVM (Fold 1) ...
+[LOG] 2026-06-08 02:05:32,046 - [SVM] Model weights saved to ./hubdata/model/SVM_fold1.pkl
+[LOG] 2026-06-08 02:05:32,054 - [SVM] Val MSE: 0.3204 | Pearson(Val): 0.6282 | Sp(Rank): 0.7575
+[LOG] 2026-06-08 02:05:35,550 - 开始训练 XGBoost (Fold 1) ...
+[LOG] 2026-06-08 02:05:40,619 - [XGBoost] Model weights saved to ./hubdata/model/XGBoost_fold1.pkl
+[LOG] 2026-06-08 02:05:40,628 - [XGBoost] Val MSE: 0.2903 | Pearson(Val): 0.6220 | Sp(Rank): 0.6749
+[LOG] 2026-06-08 02:05:44,048 - 
+==================================================
+          Starting Fold 2/5
+==================================================
+[LOG] 2026-06-08 02:05:44,048 - --- 提取特征中 (Fold 2) ---
+[LOG] 2026-06-08 02:05:45,131 - Scaler saved to ./hubdata/model/ml_scaler_fold2.pkl
+[LOG] 2026-06-08 02:05:45,131 - 开始训练 RandomForest (Fold 2) ...
+[LOG] 2026-06-08 02:05:49,687 - [RandomForest] Model weights saved to ./hubdata/model/RandomForest_fold2.pkl
+[LOG] 2026-06-08 02:05:49,700 - [RandomForest] Val MSE: 1.1489 | Pearson(Val): 0.2952 | Sp(Rank): 0.6936
+[LOG] 2026-06-08 02:05:54,167 - 开始训练 SVM (Fold 2) ...
+[LOG] 2026-06-08 02:05:55,140 - [SVM] Model weights saved to ./hubdata/model/SVM_fold2.pkl
+[LOG] 2026-06-08 02:05:55,150 - [SVM] Val MSE: 0.1307 | Pearson(Val): 0.5415 | Sp(Rank): 0.6323
+[LOG] 2026-06-08 02:05:58,812 - 开始训练 XGBoost (Fold 2) ...
+[LOG] 2026-06-08 02:06:02,894 - [XGBoost] Model weights saved to ./hubdata/model/XGBoost_fold2.pkl
+[LOG] 2026-06-08 02:06:02,902 - [XGBoost] Val MSE: 2.0355 | Pearson(Val): 0.2074 | Sp(Rank): 0.4987
+[LOG] 2026-06-08 02:06:06,419 - 
+==================================================
+          Starting Fold 3/5
+==================================================
+[LOG] 2026-06-08 02:06:06,419 - --- 提取特征中 (Fold 3) ---
+[LOG] 2026-06-08 02:06:07,502 - Scaler saved to ./hubdata/model/ml_scaler_fold3.pkl
+[LOG] 2026-06-08 02:06:07,502 - 开始训练 RandomForest (Fold 3) ...
+[LOG] 2026-06-08 02:06:12,214 - [RandomForest] Model weights saved to ./hubdata/model/RandomForest_fold3.pkl
+[LOG] 2026-06-08 02:06:12,225 - [RandomForest] Val MSE: 0.1238 | Pearson(Val): 0.5664 | Sp(Rank): 0.6301
+[LOG] 2026-06-08 02:06:16,144 - 开始训练 SVM (Fold 3) ...
+[LOG] 2026-06-08 02:06:17,289 - [SVM] Model weights saved to ./hubdata/model/SVM_fold3.pkl
+[LOG] 2026-06-08 02:06:17,297 - [SVM] Val MSE: 0.1349 | Pearson(Val): 0.4234 | Sp(Rank): 0.5077
+[LOG] 2026-06-08 02:06:20,951 - 开始训练 XGBoost (Fold 3) ...
+[LOG] 2026-06-08 02:06:24,944 - [XGBoost] Model weights saved to ./hubdata/model/XGBoost_fold3.pkl
+[LOG] 2026-06-08 02:06:24,952 - [XGBoost] Val MSE: 0.1104 | Pearson(Val): 0.6109 | Sp(Rank): 0.6722
+[LOG] 2026-06-08 02:06:28,432 - 
+==================================================
+          Starting Fold 4/5
+==================================================
+[LOG] 2026-06-08 02:06:28,433 - --- 提取特征中 (Fold 4) ---
+[LOG] 2026-06-08 02:06:29,528 - Scaler saved to ./hubdata/model/ml_scaler_fold4.pkl
+[LOG] 2026-06-08 02:06:29,528 - 开始训练 RandomForest (Fold 4) ...
+[LOG] 2026-06-08 02:06:34,056 - [RandomForest] Model weights saved to ./hubdata/model/RandomForest_fold4.pkl
+[LOG] 2026-06-08 02:06:34,068 - [RandomForest] Val MSE: 2.2019 | Pearson(Val): 0.3050 | Sp(Rank): 0.5785
+[LOG] 2026-06-08 02:06:38,177 - 开始训练 SVM (Fold 4) ...
+[LOG] 2026-06-08 02:06:39,238 - [SVM] Model weights saved to ./hubdata/model/SVM_fold4.pkl
+[LOG] 2026-06-08 02:06:39,246 - [SVM] Val MSE: 2.4017 | Pearson(Val): 0.3356 | Sp(Rank): 0.4875
+[LOG] 2026-06-08 02:06:42,676 - 开始训练 XGBoost (Fold 4) ...
+[LOG] 2026-06-08 02:06:46,574 - [XGBoost] Model weights saved to ./hubdata/model/XGBoost_fold4.pkl
+[LOG] 2026-06-08 02:06:46,582 - [XGBoost] Val MSE: 2.5768 | Pearson(Val): 0.1383 | Sp(Rank): 0.5145
+[LOG] 2026-06-08 02:06:50,031 - 
+==================================================
+          Starting Fold 5/5
+==================================================
+[LOG] 2026-06-08 02:06:50,031 - --- 提取特征中 (Fold 5) ---
+[LOG] 2026-06-08 02:06:51,118 - Scaler saved to ./hubdata/model/ml_scaler_fold5.pkl
+[LOG] 2026-06-08 02:06:51,118 - 开始训练 RandomForest (Fold 5) ...
+[LOG] 2026-06-08 02:06:55,707 - [RandomForest] Model weights saved to ./hubdata/model/RandomForest_fold5.pkl
+[LOG] 2026-06-08 02:06:55,718 - [RandomForest] Val MSE: 2.3892 | Pearson(Val): 0.3266 | Sp(Rank): 0.5546
+[LOG] 2026-06-08 02:06:59,147 - 开始训练 SVM (Fold 5) ...
+[LOG] 2026-06-08 02:07:00,459 - [SVM] Model weights saved to ./hubdata/model/SVM_fold5.pkl
+[LOG] 2026-06-08 02:07:00,471 - [SVM] Val MSE: 2.3966 | Pearson(Val): 0.3169 | Sp(Rank): 0.5295
+[LOG] 2026-06-08 02:07:03,374 - 开始训练 XGBoost (Fold 5) ...
+[LOG] 2026-06-08 02:07:07,541 - [XGBoost] Model weights saved to ./hubdata/model/XGBoost_fold5.pkl
+[LOG] 2026-06-08 02:07:07,549 - [XGBoost] Val MSE: 2.3968 | Pearson(Val): 0.3032 | Sp(Rank): 0.5294
+[LOG] 2026-06-08 02:07:10,419 - 所有折数的训练已完成。
+[LOG] 2026-06-08 02:07:10,420 - 
+************************************************************
+          PHASE 2: Ensemble Testing 
+************************************************************
+[LOG] 2026-06-08 02:07:10,671 - --- 评估测试集: RandomForest 集成 ---
+[LOG] 2026-06-08 02:07:14,274 - [Ensemble RandomForest] Test MSE: 0.1745 | Pearson: 0.4958
+[LOG] 2026-06-08 02:07:19,302 - --- 评估测试集: SVM 集成 ---
+[LOG] 2026-06-08 02:07:20,195 - [Ensemble SVM] Test MSE: 0.1066 | Pearson: 0.4615
+[LOG] 2026-06-08 02:07:24,295 - --- 评估测试集: XGBoost 集成 ---
+[LOG] 2026-06-08 02:07:24,487 - [Ensemble XGBoost] Test MSE: 0.0927 | Pearson: 0.6088
+[LOG] 2026-06-08 02:07:28,574 - 测试集评估彻底完成！
